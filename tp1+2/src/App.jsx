@@ -1,17 +1,14 @@
-import Blue from "./components/Blue"
-import Rouge from "./components/rouge"
-import Resultat from "./components/ex1/Resultat";
-import Edudiant from "./components/ex2/Etudiant";
-import Budget from "./components/ex3/budget";
+import "./App.css";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 function App() {
   return (
     <>
-    <Rouge/>
-    <Blue/>
-    <Resultat/>
-    <Edudiant/>
-    <Budget/>
-    </>
+    <div className={App}>
+    <Header/>
+    <Footer/>
+    
+    </div></>
   )
 }
 
