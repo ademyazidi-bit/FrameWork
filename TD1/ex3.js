@@ -7,6 +7,7 @@ console.log(p3);
 const [destinationPrincipale , ...autresPays] = pays;
 console.log(destinationPrincipale);
 console.log(autresPays);
+const p4 = pays.map(p=>p);
 
 const voyage = {
  destination: "Bali",
