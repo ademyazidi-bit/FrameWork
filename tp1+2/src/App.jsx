@@ -4,16 +4,13 @@ import Footer from "./components/Footer/Footer";
 import Destinations from "./components/Destinations/Destinations";
 function App() {
   return (
-    <>
-    <div className={App}>
-    <Header/>
-    <main>
-      <Destinations/>
-    </main>
-    <Footer/>
-
-    
-    </div></>
+    <div className="app">
+      <Header />
+      <main>
+        <Destinations />
+      </main>
+      <Footer />
+    </div>
   )
 }
 
