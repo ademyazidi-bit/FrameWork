@@ -29,6 +29,7 @@ function Login(){
         newError.password = "Le mot de passe doit contenir au moins un caractère spécial";
      }
      setError(newError);
+     console.log(newError);
     if (Object.keys(newError).length === 0) {
         alert("Connexion réussie");
     }
