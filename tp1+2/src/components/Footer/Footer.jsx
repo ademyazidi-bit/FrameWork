@@ -1,3 +1,9 @@
+/*function Footer(){
+    return(
+        <p> 2026 Travel agency Tout decrit reservé</p>
+    );
+}export default Footer;
+*/
 import styles from "./Footer.module.css";
 
 function Footer() {

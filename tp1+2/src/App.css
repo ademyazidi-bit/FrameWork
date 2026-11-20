@@ -2,7 +2,7 @@
 /* 1. STYLE GENERAL              */
 /* ============================= */
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -69,7 +69,7 @@ body {
     margin-bottom: 35px;
 }
 
-.destination-list {
+.DestinationListe {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 25px;
@@ -149,7 +149,7 @@ body {
         gap: 15px;
     }
 
-    .destination-list {
+    .DestinationListe {
         grid-template-columns: 1fr;
     }
 }
