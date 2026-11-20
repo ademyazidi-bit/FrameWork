@@ -1,7 +1,7 @@
 
 import Header from "./Components/Header/Header";
 import Footer from "./Components/Footer/Footer";
-import ListeDestination from "./Components/Destinations/ListeDestination.jsx";
+import Destinations from "./components/Destinations/Destinations.jsx";
 import Reservation from "./Components/Reservations/reservation.jsx";
 import "./App.css";
 import Login from "./components/Login/Login.jsx";
@@ -12,7 +12,7 @@ function App() {
       <Header />
 
       <main>
-        <ListeDestination />
+        <Destinations />
         <Reservation />
         <Login/>
         
